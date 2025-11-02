@@ -626,8 +626,17 @@ html {
         left: 10px;
     }
 
+    #impressum-info {
+    margin-left: 10px;
+    }
+
     .datenschutz {
     right: 10px;
+    }
+
+    #datenschutz-info {
+    margin-right: 10px;
+    margin-left: 10px;
     }
 
 
