@@ -355,8 +355,13 @@ h2 {
     /*margin-bottom: clamp(5rem, 6vw, 80px);*/
 }
 
-@media (max-width: 600px) {
+/*@media (max-width: 600px) {
     .iframe-container{margin-bottom: clamp(5rem, 6vw, 80px);}
+}*/
+@media (max-width: 600px) {
+  .iframe-container {
+    margin-bottom: clamp(2rem, 8vw, 5rem);
+  }
 }
 
 @media (max-width: 400px) {
