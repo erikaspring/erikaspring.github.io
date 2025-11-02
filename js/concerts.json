@@ -1,0 +1,99 @@
+[
+  {
+    "date": "2026-10-14",
+    "performer": "Duo Veris",
+    "event": "zwischen himmel und erde",
+    "venue": "Alte Schmiede",
+    "venueLink": "https://alte-schmiede.at/",
+    "place": "Wien"
+  },
+  {
+    "date": "2026-01-15",
+    "performer": "Trio Paidia",
+    "event": "Phoenix",
+    "venue": "Echo-Raum",
+    "venueLink": "https://echoraum.at/",
+    "place": "Wien"
+  },
+  {
+    "date": "2025-12-10",
+    "event": "Das pantau-x-WirSindGanzViele-Improvisations-Oakesta on Stage",
+    "venue": "OFF-Theater",
+    "venueLink": "https://off-theater.at/",
+    "place": "Wien"
+  },
+  {
+    "date": "2025-11-15",
+    "event": "Der Zaubermantel der Zwiebel – Ein interaktives Mitmach-Kinderkonzert",
+    "eventLink": "https://events.eventjet.at/e/der-zaubermantel-der-zwiebel-ein-interaktives-mitmach-kinderkonzert/",
+    "venue": "Aula vom BRG Seestadt",
+    "place": "Wien",
+    "flyer": "flyers/20251115_Kinderkonzert_Der_Zaubermantel_der_Zwiebel.jpg"
+  },
+  {
+    "date": "2025-10-25",
+    "event": "Practice Room, Enhancing Music Practice Motivation: A Gamified Approach",
+    "venue": "GAME-ON'2025",
+    "venueLink": "https://www.eurosis.org/conf/esm/2025/preliminary-programme.html",
+    "place": "Ghent, Belgien"
+  },
+  {
+    "date": "2025-08-09",
+    "performer": "Duo Èphèmére",
+    "event": " Très espressif",
+    "venue": "Schloss Seehof",
+    "place": "Lunz am See",
+    "flyer": "flyers/20250809_Duo_Fischer_Spring.jpg"
+  },
+  {
+    "date": "2025-07-11",
+    "performer": "Duo Soundfever",
+    "event": "Mosaik",
+    "venue": "Montfortsaal am Gebhardsberg",
+    "place": "Bregenz"
+  },
+  {
+    "date": "2025-05-25",
+    "performer": "Solo-Recital",
+    "event": "J. S. Bach, Goldberg-Variationen",
+    "venue": "Sommerrefektorium St. Michael",
+    "place": "Wien",
+    "flyer": "flyers/20250525_Goldberg.jpg"
+  },
+  {
+    "date": "2025-05-03",
+    "performer": "Duo Èphèmére",
+    "event": "Con animato",
+    "venue": "Schmelzersaal",
+    "place": "Scheibbs"
+  },
+  {
+    "date": "2025-02-28",
+    "performer": "Junge Philharmonie Wien",
+    "event": "Kukeri – Märchen",
+    "venue": "Ehrbarsaal",
+    "place": "Wien"
+  },
+  {
+    "date": "2025-01-03",
+    "performer": "Trio Paidia",
+    "event": "Alte Meisterin, neue Visionen",
+    "venue": "Altes Rathaus",
+    "place": "Wien",
+    "flyer": "flyers/20250103_Trio_Paidia.png"
+  },
+  {
+    "date": "2024-12-15",
+    "event": "Schönberg150 - Das gesamte Klavierwerk",
+    "venue": "Künstlerhaus",
+    "place": "Wien"
+  },
+  {
+    "date": "2024-09-13",
+    "performer": "Duo Veris",
+    "event": "Sonatenabend",
+    "venue": "Altes Rathaus",
+    "place": "Wien",
+    "flyer": "flyers/20240913_Duo_Veris.jpg"
+  }
+]

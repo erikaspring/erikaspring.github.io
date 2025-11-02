@@ -1,0 +1,597 @@
+a {
+    color:black/*#dd3d17*/;
+    text-decoration: none;
+    font-weight: 700/*800*/;
+}
+
+a:hover {
+    color:#dd3d17;
+    text-decoration: underline;
+}
+
+body {
+    font-family: "Baskervville", serif; /*"Open Sans", sans-serif;*/
+    background-color: white;
+    max-width: 1200px; /*1000px;*/
+    margin: 0 auto;                        /* Center the body horizontally */
+    padding-left: clamp(1rem, 5vw, 100px); /* Responsive padding */
+    padding-right: clamp(1rem, 5vw, 100px);
+}
+
+/*section:not(:last-child) {
+    margin-bottom: clamp(3rem, 6vw, 80px);
+}*/
+
+h2 {
+    text-align: center;
+}
+
+/*Header*/
+.headline {
+    /*color:coral;*/
+    flex: 1;
+}
+
+.header-link {
+    margin-left: 16px;
+}
+
+.bio-link {
+    font-weight: 500;
+}
+
+/* Navigation Links */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*padding: 15px 0px;*/
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    /*position: relative;*/
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.menu-toggle {
+    display: none; /* hidden on desktop */
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+@media (max-width: 1050px) {
+    .navbar {
+        flex-wrap: wrap;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .nav-links {
+        display: none;  
+        flex-basis: 100%;           
+        flex-direction: column;    /* stack links vertically */
+        align-items: center;
+        background: white;
+        border-top: 1px solid #ddd;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        animation: slideDown 0.3s ease;
+    }
+
+    .nav-links.show {
+        display: flex;
+        /*animation: slideDown 0.3s ease forwards;*/
+    }
+
+    .header-link {
+        margin-left: 0px;
+}
+}
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/*Bio*/
+.bio {
+    display: flex;             
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+    width: 100%;
+    margin-bottom: clamp(3rem, 6vw, 80px);
+}
+
+.bio-image-container {
+    width: 45%;
+    text-align: center;
+    box-sizing: border-box;
+    margin-top: 2em;
+    order: 1;
+}
+
+.bio-image {
+    width: 100%;
+    height: auto;               
+    border-radius: 8px;         
+    max-width: 900px;
+}
+
+.bio-text-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 45%;
+    box-sizing: border-box;
+    order: 2;
+    text-align: justify;
+    margin-bottom: 1.5rem;
+}
+
+.bio-image-copyright {
+    position: absolute;
+    bottom: 5px;            
+    left: 50%;               
+    transform: translateX(-50%); 
+    color: white;            
+    font-size: 12px;
+}
+
+.bio-image-copyright a {
+    color: white;
+    font-weight: normal;
+}
+
+@media (max-width: 1100px) {
+    .bio {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bio-text-wrapper,
+    .bio-image-container{
+        width: 100%;
+    }
+
+    .bio-text-wrapper {
+        order: 2;
+        margin-top: +1rem;
+    }
+    .bio-image-container {
+        order: 1;
+    }
+}
+
+/*Termine*/
+.concert{
+    margin-bottom: clamp(3rem, 6vw, 80px);
+}
+
+.concerts-past {
+    margin-top: clamp(3rem, 6vw, 100px);
+}
+
+.concert-list {
+    text-align:center;
+    list-style: none;
+    padding: 0;
+}
+
+.concert-list li {
+    margin-bottom: 8px;
+    padding: 8px 12px;
+    background: #f9f9f9;
+    border-radius: 6px;
+}
+
+.concert-list time {
+    font-weight: bold;
+}
+
+.concert-list .year-header {
+    background: none;
+    font-weight: bold;
+    margin-top: 16px;
+    font-size: 1.1em;
+}
+
+.more-btn {
+    margin-left: 8px;
+    padding: 4px 8px;
+    border: none;
+    background: #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9em;
+    transition: background 0.2s;
+    }
+
+.more-btn:hover {
+    background: #ccc;
+}
+
+.flyer-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 300px;
+}
+
+/*Esembles*/
+.ensembles-all{
+    margin-bottom: clamp(3rem, 6vw, 80px);            
+}
+
+.ensembles {
+    display: flex;             
+    align-items: center; 
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: clamp(3rem, 6vw, 10px);
+    /*margin-bottom: 10px;          optional: spacing between sections */
+}
+
+.ensembles-image-container-right {
+    order: 2;
+    padding-right: 20px; 
+    text-align: right; 
+    background-color: white; 
+    box-sizing: border-box;
+}
+
+.ensembles-image-container-left {
+    order: 0;
+    padding-left: 20px;
+    text-align: left; 
+    background-color: white; 
+    box-sizing: border-box;
+}
+
+.ensembles-text-right {
+        order: 1;
+    padding-right: 10px; 
+    width: 95%; 
+    text-align: justify;
+    box-sizing: border-box;
+}
+
+.ensembles-text-left {
+        order: 1;
+    padding-left: 10px; 
+    width: 95%; 
+    text-align: justify;
+    box-sizing: border-box;
+}
+
+.ensembles-text-center {
+        order: 1; 
+    width: 100%; 
+    text-align: justify;
+    box-sizing: border-box;
+}
+
+.ensembles-image {
+    width: 95%;
+    height: auto;               /* keep image ratio */
+    border-radius: 8px;         /* optional rounded corners */
+    max-width: 900px;
+}
+
+.ensembles-image-copyright {
+    position: absolute;
+    bottom: 5px;            
+    left: 50%;               
+    transform: translateX(-50%); 
+    color: white;            
+    font-size: 12px;
+}
+
+.ensembles-image-copyright a {
+    color: white;
+    font-weight: normal;
+}
+
+@media (max-width: 1100px) {
+    .ensembles {
+        flex-direction: column;      /* stack vertically */
+        text-align: center;
+        margin-bottom: 0px;
+    }
+
+    .ensembles-text-right,
+    .ensembles-text-left,
+    .ensembles-image-container-right,
+    .ensembles-image-container-left {
+        width: 100%;                 /* full width on mobile */
+    }
+
+    .ensembles-image {
+        max-width: 500px;
+    }
+
+    .ensembles-image-container-right ,
+    .ensembles-image-container-left {
+        text-align: center;
+        order: 1;
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .ensembles-text-right,
+    .ensembles-text-left {
+        order: 0;
+        padding-right: 0;
+        padding-left: 0;
+    }
+    }
+
+/*Aufnahmen*/
+.video-title{
+    text-align: center;
+}
+
+.iframe-container{
+    position: relative;
+    width: 100%;
+    max-width: 560px;
+    aspect-ratio: 16 / 9;
+    margin: 0 auto;
+    /*margin-bottom: clamp(5rem, 6vw, 80px);*/
+}
+
+@media (max-width: 600px) {
+    .iframe-container{margin-bottom: clamp(5rem, 6vw, 80px);}
+}
+
+.iframe-container iframe{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    max-width: 560px;
+}
+
+.iframe-container-video-grid {
+    position: relative;
+    width: 100%;
+    max-width: 560px;
+    aspect-ratio: 16 / 9; 
+    margin: 0 auto;
+    margin-bottom: clamp(3rem, 6vw, 80px);
+    display: flex;
+    flex-direction: column; /* stack the three iframes vertically */
+}
+
+/*.iframe-container,
+    .iframe-container-video-grid {
+    position: relative;
+    width: 100%;
+    max-width: 560px;
+    aspect-ratio: 16 / 9;
+    margin: 20px auto; 
+    padding-left: clamp(1rem, 4vw, 20px);
+    padding-right: clamp(1rem, 4vw, 20px);
+    box-sizing: border-box;
+}*/
+
+/*Practice Room*/
+
+.practice-room {
+    display: flex;
+    flex-direction: column;             
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    gap: 20px;
+    flex-wrap: wrap;
+    /*margin-bottom: clamp(3rem, 6vw, 80px);*/
+    /*margin-bottom: 10px;          optional: spacing between sections */
+}
+
+.practice-room-text {
+    text-align: justify;
+/*    order: 1;
+    flex: 1 1 60%;             
+    padding: 0 15%;             
+    text-align: justify;
+    box-sizing: border-box;*/
+    order: 1;
+}
+
+.practice-room-container {
+    display: flex;             
+    align-items: center; 
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: clamp(3rem, 6vw, 10px);
+    gap: 2rem;
+}
+
+.practice-room-text-left {
+    flex: 1;
+    text-align: justify;
+    order: 2;
+}
+
+.practice-room-image-container {
+    order: 3;
+    flex: 1;
+    /*flex: 1 1 200px;*/
+    text-align: center; 
+    background-color: white; 
+    box-sizing: border-box;
+}
+
+.practice-room-image {
+    width: 100%;
+    height: auto;               /* keep image ratio */
+    border-radius: 8px;         /* optional rounded corners */
+    max-width: 250px;
+    margin: 10px auto;
+}
+
+.practice-room-image-text {
+    position: absolute;
+    bottom: 25px;            
+    left: 50%;               
+    transform: translateX(-50%); 
+    color: #f89216;            
+    font-size: 16px;
+}
+
+.practice-room-image-text a {
+    color: #f89216;
+    font-weight: normal;
+}
+
+@media (max-width: 800px) {
+    .practice-room-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .practice-room-text-left {
+    order: 1;
+    width: 90%;
+    padding: 0 5%;
+  }
+
+  .practice-room-image-container {
+    order: 2;
+    width: 100%;
+  }
+  
+    .practice-room-text {
+        width: 90%;
+        padding: 0 5%;            /* scalable side spacing */
+    }
+}
+
+/*Kontakte*/
+.contacts {
+    max-width: 400px;
+    text-align: center;
+    width:100%;
+    margin: 0 auto;
+    margin-bottom: clamp(3rem, 6vw, 80px);
+    border-radius: 12px; 
+}
+
+.youtube-button {
+  display: inline-block;
+  font-size:48px;
+  color: #ff0000; /* YouTube red */
+  background: #ff0000; /* YouTube red */
+  color: white;
+  padding: 10px 16px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.youtube-button:hover {
+  background: #cc0000;
+}
+
+/*Endbild*/
+.last-image-container {
+    margin-bottom: 0;
+    background-color: white;
+    text-align:center;
+}
+
+.image-wrapper {
+    position: relative;
+    display: inline-block;
+    /*cursor: pointer;*/
+}
+
+.last-image {
+    width: 100%; 
+    aspect-ratio: 10 / 4;
+    object-fit: cover;
+    object-position: 10% 15%;
+    display: block;
+}
+
+.footer-text {
+    position: absolute;
+    bottom: 5px;
+    color: white;
+    font-size: 14px;
+}
+
+.impressum {
+    left: 40px;
+}
+
+.copyright {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.datenschutz {
+    right: 40px;
+}
+
+.footer-text a {
+    color: white;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.footer-text a:hover {
+    text-decoration: underline;
+}
+
+/* Info sections */
+.info-section {
+    display: none;
+    margin-top: 15px;
+    line-height: 1.5;
+    color: black;
+    max-width: 600px;
+}
+
+/* Impressum info alignment (same as link) */
+#impressum-info {
+    text-align: left;
+    margin-left: 40px; /* aligns with link position */
+}
+
+/* Datenschutz info alignment (same as link) */
+#datenschutz-info {
+    text-align: justify;
+    margin-right: 40px; /* aligns with link position */
+    margin-left: 40px;  /* pushes it to right */
+    max-width: 1200px;
+}
+
+/* When visible */
+.info-section.visible {
+    display: block;
+}
+
+/* Smooth scroll behavior */
+html {
+    scroll-behavior: smooth;
+}
