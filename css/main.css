@@ -620,3 +620,15 @@ h2 {
 html {
     scroll-behavior: smooth;
 }
+
+@media (max-width: 600px) {
+    .impressum {
+        left: 10px;
+    }
+
+    .datenschutz {
+    right: 10px;
+    }
+
+
+}
