@@ -359,9 +359,19 @@ h2 {
     .iframe-container{margin-bottom: clamp(5rem, 6vw, 80px);}
 }
 
-@media (max-width: 320px) {
-    .iframe-container{margin-bottom: clamp(5rem, 6vw, 160px);}
+@media (max-width: 400px) {
+  .video-title {
+    font-size: clamp(0.9rem, 5vw, 1.2rem);
+    padding: 0 0.5rem;
+  }
+
+  .iframe-container {
+    aspect-ratio: 16 / 9;
+    margin-bottom: 2rem;
+    max-width: 100%;
+  }
 }
+
 
 .iframe-container iframe{
     position: absolute;
