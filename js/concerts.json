@@ -1,4 +1,12 @@
-[
+[ 
+  {
+    "date": "2026-11-27",
+    "performer": "Trio Paidia",
+    "event": "Trio Konzert",
+    "venue": "Bank Austria Salon",
+    "venueLink": "https://www.bankaustria.at/kunst-kultur-soziales-bank-austria-salon.jsp",
+    "place": "Wien"
+  },
   {
     "date": "2026-10-14",
     "performer": "Duo Veris",
@@ -8,18 +16,26 @@
     "place": "Wien"
   },
   {
+    "date": "2026-04-24",
+    "performer": "Duo Èphèmére",
+    "event": "Duo-Abend",
+    "venueLink": "https://www.bankaustria.at/kunst-kultur-soziales-bank-austria-salon.jsp",
+    "venue": "Bank Austria Salon",
+    "place": "Wien"
+  },
+  {
     "date": "2026-01-15",
     "performer": "Trio Paidia",
     "event": "Phoenix",
+    "eventLink": "https://echoraum.at/trio-paidia-phoenix/",
     "venue": "Echo-Raum",
-    "venueLink": "https://echoraum.at/",
     "place": "Wien"
   },
   {
     "date": "2025-12-10",
     "event": "Das pantau-x-WirSindGanzViele-Improvisations-Oakesta on Stage",
+    "eventLink": "https://off-theater.at/project/das-pantau-x-wirsindganzviele-improvisations-oakesta-on-stage/",
     "venue": "OFF-Theater",
-    "venueLink": "https://off-theater.at/",
     "place": "Wien"
   },
   {
