@@ -15,7 +15,20 @@
     "place": "Wien"
   },
   {
-    "date": "2026-04-24",
+    "date": "2026-09-12",
+    "event": "Solo-Recital",
+    "venue": "Zacherlfabrik",
+    "venueLink": "http://www.zacherlfabrik.at/",
+    "place": "Wien"
+  },
+  {
+    "date": "2026-06-03",
+    "event": "Goldberg-Variationen getanzt",
+    "venue": "Sommerrefektorium St. Michael",
+    "place": "Wien"
+  },
+  {
+    "date": "2026-04-07",
     "performer": "Duo Èphèmére",
     "event": "Duo-Abend",
     "venueLink": "https://www.bankaustria.at/kunst-kultur-soziales-bank-austria-salon.jsp",
