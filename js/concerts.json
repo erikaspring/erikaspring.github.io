@@ -22,9 +22,33 @@
     "place": "Wien"
   },
   {
+    "date": "2026-07-20",
+    "event": "Summer School der Vienna Piano School",
+    "venue": "MusikQuartier",
+    "venueLink": "https://en.viennapiano.at/summerschool?gad_source=1&gad_campaignid=23290763189&gclid=Cj0KCQiA-YvMBhDtARIsAHZuUzJvaVvlu9-8H1UHbxdzCeHpqPkh60z-lf-LczurLOBAN02fxS1p3bkaAuwXEALw_wcB",
+    "place": "Wien"
+  },
+  {
     "date": "2026-06-03",
-    "event": "Goldberg-Variationen getanzt",
-    "venue": "mit Tanzcompany Of(f) Verticality von Rose Breuss, Sommerrefektorium St. Michael",
+    "event": "Goldberg-Variationen getanzt, mit Tanzcompany Of(f) Verticality von Rose Breuss",
+    "venue": "Sommerrefektorium St. Michael",
+    "venueLink": "https://www.michaelerkirche.at/kalender/",
+    "place": "Wien"
+  },
+  {
+    "date": "2026-04-25",
+    "performer": "Duo Mitterbauer | Spring",
+    "event": "Finale Fanny-Hensel-Wettbewerb 2026",
+    "venue": "Schloss Weissenbrunn",
+    "venueLink": "https://schloss-weissenbrunn.de/musikakademie/wettbewerbe/fanny-hensel-wettbewerb/",
+    "place": "Deutschland"
+  },
+  {
+    "date": "2026-04-14",
+    "performer": "Duo Mitterbauer | Spring, Liederabend",
+    "event": "Hensel & Gretel",
+    "venue": "Musik in der Praxis",
+    "venueLink": "https://www.musikinderpraxis.at/",
     "place": "Wien"
   },
   {
