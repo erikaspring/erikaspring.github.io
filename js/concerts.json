@@ -56,7 +56,7 @@
     "venue": "Stift Heiligenkreuz, Kaisers Tafelstube",
     "place": "Niederösterreich"
   },
-    {
+  {
     "date": "2026-04-14",
     "performer": "Duo Mitterbauer | Spring, Liederabend",
     "event": "Hensel & Gretel",
@@ -66,11 +66,12 @@
   },
   {
     "date": "2026-04-07",
-    "performer": "Duo Èphèmére",
+    "performer": "Duo Éphémère",
     "event": "Zwischen Ruhe und Rastlosigkeit",
     "venueLink": "https://www.bankaustria.at/kunst-kultur-soziales-bank-austria-salon.jsp",
     "venue": "Bank Austria Salon",
-    "place": "Wien"
+    "place": "Wien",
+    "flyer": "flyers/20260407_Duo Éphémère.jpg"
   },
   {
     "date": "2026-01-15",
