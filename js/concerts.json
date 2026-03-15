@@ -54,7 +54,8 @@
     "performer": "Duo Mitterbauer | Spring, Liederabend",
     "event": "Hensel & Gretel",
     "venue": "Stift Heiligenkreuz, Kaisers Tafelstube",
-    "place": "Niederösterreich"
+    "place": "Niederösterreich",
+    "flyer": "flyers/StiftHeiligenkreuz.pdf"
   },
   {
     "date": "2026-04-14",
@@ -62,7 +63,8 @@
     "event": "Hensel & Gretel",
     "venue": "Musik in der Praxis",
     "venueLink": "https://www.musikinderpraxis.at/",
-    "place": "Wien"
+    "place": "Wien",
+    "flyer": "flyers/MusikinderPraxis.pdf"
   },
   {
     "date": "2026-04-07",
