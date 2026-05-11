@@ -32,14 +32,16 @@
     "date": "2026-06-11",
     "event": "Goldberg-Variationen getanzt, mit Tanzcompany Of(f) Verticality von Rose Breuss",
     "venue": "Festsaal Amtshaus Währing",
-    "place": "Wien"
+    "place": "Wien",
+     "flyer": "flyers/20260603_Goldberg-Variationen getanzt.jpg"
   },
   {
     "date": "2026-06-03",
     "event": "Goldberg-Variationen getanzt, mit Tanzcompany Of(f) Verticality von Rose Breuss",
     "venue": "Sommerrefektorium St. Michael",
     "venueLink": "https://www.michaelerkirche.at/kalender/",
-    "place": "Wien"
+    "place": "Wien",
+    "flyer": "flyers/20260603_Goldberg-Variationen getanzt.jpg"
   },
   {
     "date": "2026-04-25",
