@@ -4,12 +4,9 @@ async function loadConcerts() {
     if (!response.ok) throw new Error("Failed to load concerts.json");
     const concerts = await response.json();
 
-    /*const concerts = [
-  ]*/
-
-    const today = new Date();
-    const future = concerts.filter(c => new Date(c.date) >= today);
-    const past = concerts.filter(c => new Date(c.date) < today);
+    const todayStr = new Date().toISOString().slice(0, 10); // "2026-06-03"
+    const future = concerts.filter(c => c.date >= todayStr);
+    const past   = concerts.filter(c => c.date <  todayStr);
 
     renderConcerts(future, 'future-concerts', true, false);
     renderConcerts(past, 'past-concerts', false, true);
@@ -75,9 +72,16 @@ function renderConcerts(concerts, containerId, chronological, showYear) {
 
       const performerHTML = concert.performer ? `${concert.performer}, ` : '';
 
+      const parts = [
+        concert.performer  ? concert.performer               : null,
+        concert.event      ? `<i>${eventHTML}</i>`           : null,
+        concert.venue      ? venueHTML                       : null,
+        concert.place      ? concert.place                   : null,
+      ].filter(Boolean).join(', ');
+
       li.innerHTML = `
         <time datetime="${concert.date}">${formattedDate}</time> – 
-        ${performerHTML} <i>${eventHTML}</i>, ${venueHTML}, ${concert.place}
+        ${parts}
         ${concert.flyer ? `<button class="more-btn">mehr</button>` : ''}
       `;
 
@@ -102,9 +106,14 @@ function renderConcerts(concerts, containerId, chronological, showYear) {
         // Button toggle
         li.querySelector('.more-btn').addEventListener('click', (e) => {
           e.stopPropagation();
+          
+          const scrollY = window.scrollY; // 1. save position before change
+          
           const visible = flyerContainer.style.display === 'block';
           flyerContainer.style.display = visible ? 'none' : 'block';
           e.target.textContent = visible ? 'mehr' : 'weniger';
+          
+          window.scrollTo({ top: scrollY, behavior: 'instant' }); // 2. restore it
         });
       }
 
