@@ -2,6 +2,7 @@
   {
     "date": "2026-11-27",
     "performer": "Trio Alpha",
+    "event": "Trio-Konzert",
     "venue": "Altes Rathaus, Bank Austria Salon",
     "venueLink": "https://www.bankaustria.at/kunst-kultur-soziales-bank-austria-salon.jsp",
     "place": "Wien"
@@ -14,7 +15,7 @@
     "venueLink": "https://alte-schmiede.at/",
     "place": "Wien"
   },
-    {
+  {
     "date": "2026-09-20",
     "event": "Georg Friedrich Haas: 11.000 Saiten",
     "venue": "Konzerthaus Wien",
@@ -35,6 +36,15 @@
     "venueLink": "https://en.viennapiano.at/summerschool?gad_source=1&gad_campaignid=23290763189&gclid=Cj0KCQiA-YvMBhDtARIsAHZuUzJvaVvlu9-8H1UHbxdzCeHpqPkh60z-lf-LczurLOBAN02fxS1p3bkaAuwXEALw_wcB",
     "place": "Wien"
   },
+  {
+    "date": "2026-07-18",
+    "event": "Georg Friedrich Haas «Hyena III»",
+    "venue": "Rudolf Buchbinder Saal",
+    "venueLink": "https://www.grafenegg.com/de/programm-karten/abendkonzert-ii/50578",
+    "place": "Grafenegg"
+  },
+
+
   {
     "date": "2026-06-11",
     "event": "Goldberg-Variationen, ein Tanzabend mit der Tanzcompany Cie. Of(f) Verticality von Rose Breuss",
