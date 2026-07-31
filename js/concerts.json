@@ -24,6 +24,28 @@
     "place": "Wien"
   },
   {
+    "date": "2026-09-12",
+    "event": "Solo-Recital",
+    "venue": "Zacherlfabrik",
+    "venueLink": "http://www.zacherlfabrik.at/",
+    "place": "Wien"
+  },
+  {
+    "date": "2026-10-11",
+    "event": "Hugo Wolf-Serenade",
+    "venue": "Burg Perchtoldsdorf",
+    "venueLink": "https://www.perchtoldsdorf.at/Hugo_Wolf-Serenade_2026",
+    "place": "Perchtoldsdorf, Niederösterreich"
+  },
+  {
+    "date": "2026-09-29",
+    "performer": "Duo Lucija Varsic & Erika Spring"
+    "event": "15. Internationaler Wettbewerb für Liedkunst Stuttgart",
+    "venue": "Konzertsaal, HMDK Stuttgart",
+    "venueLink": "https://www.ihwa.de/wettbewerb",
+    "place": "Stuttgart"
+  },
+  {
     "date": "2026-09-20",
     "event": "Georg Friedrich Haas: 11.000 Saiten",
     "venue": "Konzerthaus Wien",
@@ -31,10 +53,10 @@
     "place": "Wien"
   },
   {
-    "date": "2026-09-12",
-    "event": "Solo-Recital",
-    "venue": "Zacherlfabrik",
-    "venueLink": "http://www.zacherlfabrik.at/",
+    "date": "2026-09-20",
+    "event": "Georg Friedrich Haas: 11.000 Saiten",
+    "venue": "Konzerthaus Wien",
+    "venueLink": "https://konzerthaus.at/de/programm-und-karten/klangforum-wien-kaziboni/64110",
     "place": "Wien"
   },
   {
