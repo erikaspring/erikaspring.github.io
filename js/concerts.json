@@ -1,5 +1,13 @@
 [ 
-  {
+{
+    "date": "2027-03-03",
+    "performer": "Beethoven Lesung mit Aaron Karl",
+    "event": "Nur die Kunst hielt mich zurück",
+    "venue": "Theater der Komödie Graz",
+    "venueLink": "https://komoedie-graz.at/Spielplan/Default.aspx?d=03.02.2027",
+    "place": "Graz"
+  },
+{
     "date": "2027-01-09",
     "performer": "Duo Mitterbauer | Spring",
     "event": "WALDMINNE - eine Legende in Liedern",
