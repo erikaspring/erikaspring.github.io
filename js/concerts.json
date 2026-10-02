@@ -1,5 +1,11 @@
 [ 
 {
+    "date": "2027-04-16",
+    "performer": "Hammer und Giraffe",
+    "venue": "Echo-Raum",
+    "place": "Wien"
+  },
+{
     "date": "2027-02-03",
     "performer": "Beethoven Lesung mit Aaron Karl",
     "event": "Nur die Kunst hielt mich zurück",
@@ -22,6 +28,13 @@
     "venue": "Altes Rathaus, Bank Austria Salon",
     "venueLink": "https://www.bankaustria.at/kunst-kultur-soziales-bank-austria-salon.jsp",
     "place": "Wien"
+  },
+  {
+    "date": "2026-11-14",
+    "event": "Hammer und Giraffe. Untersuchungen an Flügeln",
+    "venue": "Hessischer Rundfunk - artist's corner, 23 Uhr",
+    "venueLink": "https://www.bankaustria.at/kunst-kultur-soziales-bank-austria-salon.jsp",
+    "place": "Radiosendung mit Georg Nussbaumer"
   },
   {
     "date": "2026-10-14",
