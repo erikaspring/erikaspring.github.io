@@ -1,35 +1,35 @@
 [ 
 {
     "date": "2027-10-30",
-    "event": "Beethoven '27 - Nur Die Kunst hielt mich zurück",
+    "event": "Beethoven '27 - Nur die Kunst hielt mich zurück",
     "venue": "Serenadenkonzert Baden",
     "venueLink": "https://www.serenadenkonzerte.at/termine-programm",
     "place": "Baden bei Wien"
   },
 {
     "date": "2027-10-21",
-    "event": "Beethoven '27 - Nur Die Kunst hielt mich zurück",
+    "event": "Beethoven '27 - Nur die Kunst hielt mich zurück",
     "venue": "Lichtspiele Klagenfurt",
     "venueLink": "https://www.kammerlichtspiele.at/programm",
     "place": "Klagenfurt"
   },
 {
     "date": "2027-10-14",
-    "event": "Beethoven '27 - Nur Die Kunst hielt mich zurück",
+    "event": "Beethoven '27 - Nur die Kunst hielt mich zurück",
     "venue": "Theater Akzent",
     "venueLink": "https://akzent.at/en-test/schedule/10098/Aaron-Karl",
     "place": "Wien"
   },
 {
     "date": "2027-09-05",
-    "event": "Beethoven '27 - Nur Die Kunst hielt mich zurück",
+    "event": "Beethoven '27 - Nur die Kunst hielt mich zurück",
     "venue": "Pleyel-Zentrum Ruppersthal",
     "venueLink": "https://www.pleyel.at/",
     "place": "Niederösterreich"
   },
 {
     "date": "2027-07-08",
-    "event": "Beethoven '27 - Nur Die Kunst hielt mich zurück",
+    "event": "Beethoven '27 - Nur die Kunst hielt mich zurück",
     "venue": "Festspiele Golling",
     "venueLink": "https://festspielegolling.at/karten/",
     "place": "Salzburg"
@@ -42,7 +42,7 @@
   },
 {
     "date": "2027-02-03",
-    "event": "Beethoven '27 - Nur Die Kunst hielt mich zurück",
+    "event": "Beethoven '27 - Nur die Kunst hielt mich zurück",
     "venue": "Theater der Komödie Graz",
     "venueLink": "https://komoedie-graz.at/Spielplan/Default.aspx?d=03.02.2027",
     "place": "Graz"
@@ -62,7 +62,7 @@
     "venue": "Altes Rathaus, Bank Austria Salon",
     "venueLink": "https://www.bankaustria.at/kunst-kultur-soziales-bank-austria-salon.jsp",
     "place": "Wien",
-     "flyer": "flyers/2026-11-27_Trio Alpha.jpeg" 
+    "flyer": "flyers/2026-11-27_Trio Alpha.jpeg" 
   },
   {
     "date": "2026-11-14",
