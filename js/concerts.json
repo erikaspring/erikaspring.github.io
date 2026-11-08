@@ -20,12 +20,27 @@
     "venueLink": "https://akzent.at/en-test/schedule/10098/Aaron-Karl",
     "place": "Wien"
   },
+    {
+    "date": "2027-09-25",
+    "performer": "Duo Mitterbauer | Spring",
+    "event": "Liederabend",
+    "venue": "Musik in der Praxis",
+    "venueLink": "https://www.musikinderpraxis.at",
+    "place": "Wien"
+  },
 {
     "date": "2027-09-05",
     "event": "Beethoven '27 - Nur die Kunst hielt mich zurück",
     "venue": "Pleyel-Zentrum Ruppersthal",
     "venueLink": "https://www.pleyel.at/",
     "place": "Niederösterreich"
+  },
+  {
+    "date": "2027-08-02",
+    "event": "Summer School der Vienna Piano School",
+    "venue": "MusikQuartier",
+    "venueLink": "https://en.viennapiano.at/summerschool",
+    "place": "Wien"
   },
 {
     "date": "2027-07-08",
