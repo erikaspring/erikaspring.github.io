@@ -63,6 +63,13 @@
     "venue": "Echo-Raum",
     "place": "Wien"
   },
+  {
+    "date": "2027-02-28",
+    "event": "Beethoven '27 - Nur die Kunst hielt mich zurück",
+    "venue": "MUSIUM Reinsberg",
+    "venueLink": "https://www.mostviertel.at/veranstaltungen/beethoven27",
+    "place": "Niederösterreich"
+  },
 {
     "date": "2027-02-03",
     "event": "Beethoven '27 - Nur die Kunst hielt mich zurück",
