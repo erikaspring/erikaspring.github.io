@@ -7,6 +7,13 @@
     "venueLink": "https://www.musikinderpraxis.at",
     "place": "Wien"
   },
+    {
+    "date": "2027-11-07",
+    "event": "Beethoven 4. Klavierkonzert mit dem Kammerorchester Scheibbs",
+    "venue": "MUSIUM Reinsberg",
+    "venueLink": "https://kulturdorf.reinsberg.at/portfolio_page/kammerorchester-scheibbs-2027/",
+    "place": "Niederösterreich"
+  },
 {
     "date": "2027-10-30",
     "event": "Beethoven '27 - Nur die Kunst hielt mich zurück",
@@ -67,7 +74,7 @@
     "date": "2027-02-28",
     "event": "Beethoven '27 - Nur die Kunst hielt mich zurück",
     "venue": "MUSIUM Reinsberg",
-    "venueLink": "https://www.mostviertel.at/veranstaltungen/beethoven27",
+    "venueLink": "https://reinsberg.gv.at/veranstaltungen/event-1/beethoven27-mit-erika-spring-aaron-karl",
     "place": "Niederösterreich"
   },
 {
